@@ -9,6 +9,7 @@ import lombok.experimental.FieldDefaults;
 @Getter
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class CityDTO {
+    Long cityId;
     String name;
     String description;
     String recommendation;
