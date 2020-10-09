@@ -8,8 +8,11 @@ import org.telegram.telegrambots.ApiContextInitializer;
 @SpringBootApplication
 public class TravelBotApplication {
 
-    public static void main(String[] args) {
+    static {
         ApiContextInitializer.init();
+    }
+
+    public static void main(String[] args) {
         SpringApplication.run(TravelBotApplication.class, args);
     }
 }

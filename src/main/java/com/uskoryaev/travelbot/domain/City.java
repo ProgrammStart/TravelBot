@@ -21,5 +21,4 @@ public class City {
     Long cityId;
     String name;
     String description;
-    String recommendation;
 }

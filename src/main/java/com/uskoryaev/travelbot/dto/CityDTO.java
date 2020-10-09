@@ -12,5 +12,4 @@ public class CityDTO {
     Long cityId;
     String name;
     String description;
-    String recommendation;
 }
